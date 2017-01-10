@@ -1,4 +1,4 @@
-package netTools;
+package com.mike.EmailTools;
 
 /**
  * Created by mike on 17-1-10.
@@ -17,9 +17,7 @@ import org.apache.commons.net.smtp.SMTPClient;
 import org.apache.commons.net.smtp.SMTPReply;
 import org.apache.commons.net.smtp.SimpleSMTPHeader;
 
-import javax.mail.*;
-
-public class netTools {
+public class EmailTools {
     public static int sendEmail(String sender, String receiver, String subject, String content, String server, String filename) {
         try {
             Writer writer;

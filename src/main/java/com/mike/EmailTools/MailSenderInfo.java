@@ -1,4 +1,4 @@
-package netTools;
+package com.mike.EmailTools;
 
 /**
  * 发送邮件需要使用的基本信息

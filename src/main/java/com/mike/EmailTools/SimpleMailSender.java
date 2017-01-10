@@ -1,4 +1,4 @@
-package netTools;
+package com.mike.EmailTools;
 
 import java.util.Date;
 import java.util.Properties;
